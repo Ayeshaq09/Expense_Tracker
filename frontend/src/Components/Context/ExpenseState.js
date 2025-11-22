@@ -4,7 +4,7 @@ import ExpenseContext from "./ExpenseContext";
 const ExpenseState = (props) => {
   const [expenses, setExpenses] = useState([]);
 
-  const host = "http://localhost:5000/api/expense";
+  const host = "https://expense-tracker-backend-wk7u.onrender.com";
 
   // fetch the get all expenses api
   const fetchExpenses = async () => {
