@@ -4,7 +4,7 @@ import BudgetContext from "./BudgetContext";
 const BudgetState = (props) => {
   const [budgets, setBudgets] = useState([]);
 
-  const host = "http://localhost:5000/api/budget";
+  const host = "https://expense-tracker-backend-wk7u.onrender.com";
 
   // fetch the add budget api
   const addBudget = async (budget) => {
