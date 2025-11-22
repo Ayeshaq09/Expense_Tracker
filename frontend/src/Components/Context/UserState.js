@@ -4,7 +4,7 @@ import UserContext from "./UserContext";
 export const UserState = (props) => {
   const [user, setUser] = useState(null);
 
-  const host = "https://expense-tracker-backend-wk7u.onrender.com";
+  const host = "https://expense-tracker-backend-wk7u.onrender.com/api";
 
   // fetch the login user api
   const loginUser = async (credentials, navigate, setIsLoggedIn) => {
